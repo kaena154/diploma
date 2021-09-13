@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<h1>Факультет радіофізики, електроніки та комп*ютерних систем</h1>
+<div class="itemListCategoriesBlock">
+    <!-- Category block -->
+    <div class="itemListCategory">
+      <!-- Category title -->
+      <h4></h4>
+      <p></p>
+      <h2>Актуальні новини:</h2>
+        <!-- Category description -->
+      <!-- K2 Plugins: K2CategoryDisplay -->      
+      <div class="clr"></div>
+    </div>
+ </div>
+
+{% for post in site.categories.jekyll %}
+
+<div class="itemContainer itemContainerLast" style="width:100.0%;">			
+<article class="itemView groupLeading">  	
+	<div class="k2box">	
+		<div class="itemBlock">	
+			<header>
+                <div class="info_date">
+                    <time>
+                        <span class="date"></span>
+                        <span class="month-year">{{ post.date | date_to_string }}</span>
+                    </time>
+                </div>
+                <h2><a href=" {{ post.url | prepend: site.baseurl }} "> {{ post.title }} </a>
+					<aside>
+						<ul></ul>
+					</aside>
+				</h2>
+			</header>
+			<div class="itemBody">
+				<div class="itemIntroText">
+					<p> {{ post.content }} </p>
+ 				</div>
+ 			</div>
+ 			<!--<div class="itemImageBlock">
+				<a class="itemImage" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+				<img src="/media/k2/items/cache/184b7cb84d7b456c96a0bdfbbeaa5f14_L.jpg" alt="{{ post.title }}" style="width:700px; height:auto;">
+				</a>
+			</div>-->		
+		</div>
+	</div>
+</article>
+</div>
+<div class="clr"></div>
+
+{% endfor %}

@@ -1,20 +1,40 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include head.html -%}
-
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
-  </body>
-
-</html>
+<body id="vtem">
+{% include head.html %}
+<div id="vt_wrapper" class="vt_wrapper vt_container">
+  <section class="vt_wrapper_header vt_section"> {% include header.html %} </section>
+  <div class="container">
+    <div class="vt_wrapper_box_main">
+      <main class="vt_main clearfix">
+        <div class="col-md-12 vt_component">
+          <!-- Start K2 Category Layout -->
+<div id="k2Container" class="itemListView">
+  <!-- Blocks for current category and subcategories -->
+  <div class="itemList">
+    <div id="itemListLeading"> {{ content }} </div>
+  </div>
+  <!-- Pagination -->
+  <div class="k2Pagination vt-pagination text-center">
+    <div class="clr"></div>
+        <p class="counter text-muted"></p>
+  </div>
+</div>
+<!-- End K2 Category Layout -->
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="container"> {% include footer.html %} </div>
+</div>
+  <!--<script type="text/javascript" src="/templates/vt_science/vtemtools/menus/jquery.hoverIntent.minified.js"></script>
+      <script type="text/javascript" src="/templates/vt_science/vtemtools/menus/jquery.omenu.1.0.js"></script>
+      <script type="text/javascript">var vtemDefaultMenu = jQuery.noConflict();
+  jQuery(document).ready(function(){
+    jQuery("#vtemdefaultmenu").oMenu({
+      theme: "default-menu",
+      effect: "fade",
+      mouseEvent: "hover"
+    });
+  });</script>
+  <script type="text/javascript" src="/templates/vt_science/vtemtools/widgets/scrollReveal.js"></script>
+  <script type="text/javascript">window.scrollReveal = new scrollReveal();</script>-->
+</body>

@@ -1,0 +1,11 @@
+---
+layout: default
+title: Персоналії
+---
+
+<h4>Викладачі:</h4>
+
+{% for post in site.categories.persons %}
+	<!--<h2>{{ post.title }}</h2>-->
+	{{ post.content }}
+{% endfor %}

@@ -1,0 +1,64 @@
+
+.Our_services .waper_Our a.btn.btn-primary:hover:after,
+.Our_services .waper_Our a.btn.btn-primary:hover,
+a.itemCommentsLink,.itemComments a,.itemCategory a,
+.Our_projects.vt_block .vtem-after-text a:hover,
+.vtem_scroller .prev:hover .fa, .vtem_scroller .next:hover .fa,
+.btn-primary:hover,#comment-form .btn.btn-primary:hover,.btn.btn-primary:hover,
+h4 a:hover,.fa-angle-double-right, a:hover .fa-angle-double-right,
+.pagination > li > a,.pagination > li > a:hover,.Our_Services ul li a:hover,
+.blog h2 a:hover, a:hover, a:focus,a, .vtem_scroller h4 a:hover, ul.latestnews li a:hover,
+ul.menu li a:hover, ul.weblinks li a:hover, ul.menu li.active.current a, 
+ul.menu li.parent a:hover, ul.menu li.active li.active.curren a,
+.login ul.login li a:hover,.btn-link,.btn-link:hover,.page-header h2 a,
+.main-mega-menu li.mega-hover > .sub-container.mega > a, 
+.main-mega-menu li.mega-hover > .sub-container.mega > a:hover, 
+.menuvtem_nav > li.active > .sub-menu > li.active > a, 
+.active.parent > .sub-container > li.active > a,
+.main-mega-menu .sub-container li.active > a,
+.main-mega-menu li.mega-hover > .sub-container.mega > a, 
+.main-mega-menu li.mega-hover > .sub-container.mega > a:hover, 
+.main-mega-menu .sub-container li.mega-hover > a,
+.main-mega-menu .sub-container li.current.active > a,
+.active.parent .sub-container li.active > a,
+.menuvtem_nav .current.active > a,
+.menuvtem_nav > .active > a, .menuvtem_nav > .active > a:hover, 
+.menuvtem_nav > .active > a:focus{ color:#528dd4;}
+
+.Our_services .waper_Our a.btn.btn-primary:hover:after,
+.Our_services .waper_Our a.btn.btn-primary:hover,
+.View_ourevents a.btn.btn-primary:hover,
+.View_ourevents a.btn.btn-primary:after{color:#528dd4 !important;}
+
+.main-mega-menu .sub-container li.mega-hover > a > .mega-menu-icon,
+.main-mega-menu .sub-container li.current.active > a > .mega-menu-icon,
+.active.parent .sub-container li.active > a > .mega-menu-icon,
+.main-mega-menu li .sub-container a:hover .mega-menu-icon,
+.main-mega-menu li .sub-container a:focus .mega-menu-icon {border-top-color: #528dd4;  border-bottom-color: #528dd4; color:#528dd4;}
+
+.vtem_skitter .prev_button:hover .fa, 
+.vtem_skitter .next_button:hover .fa,
+.mega-menu-wrapper > ul.main-mega-menu > li.current > a, 
+.menuvtem_nav > .current.active > a, 
+.main-mega-menu > li.mega-hover > a, 
+.main-mega-menu > li.mega-hover > a:hover, 
+.menuvtem_nav > .active > a, 
+.menuvtem_nav > .active > a:hover, 
+.menuvtem_nav > .active > a:focus,
+.main-mega-menu > li.mega-hover > a, 
+.main-mega-menu > li.mega-hover > a:hover, 
+.menuvtem_nav > .current.active > a,
+.menuvtem_nav > .active > a, 
+.menuvtem_nav > .active > a:hover, 
+.menuvtem_nav > .active > a:focus{ color:#528dd4 !important; border:1px solid #528dd4;}
+
+.btn.btn-primary:hover{ border:1px solid #528dd4;}
+
+.Our_services.vt_block,
+.vtem-accordion-wrapper .title.active,
+#vt_top,.vtem_skitter .label_skitter,
+.btn.btn-primary:after,
+#comment-form .btn.btn-primary:after,
+#comment-form .btn.btn-primary:hover{ background:#528dd4 !important;}
+
+.template-style4 #vt_logo{background:url(vt_logo_style4.png) left 0 no-repeat;}

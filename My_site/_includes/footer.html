@@ -1,35 +1,64 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+<section class="vt_wrapper_footer vt_section">
+  <div class="vt_container vt_group">
+    <div id="vt_footer" class="vt_footer row-fluid clearfix">
+      <div class="col-md-4      vt_block">
+        <div class="vt_moduletable clearfix moduletable">
+          <h3 class="vt_moduletable_title"><span>Контакти</span></h3>
+            <div class="vt_moduletable_content">
+              <div class="custom">
+                <p><strong>Адреса:<br></strong>Київ, просп. Глушкова, 4г<br><strong>Тел.</strong>:&nbsp;(044)&nbsp;526-05-22</p>
+                  <div style="width: 100%; float: left; overflow: hidden;">
+                    <p>
+                      <!--<a href="https://vk.com/rff_forever" target="_blank" title="Сторінка ВКонтакте"><img src="/images/com/vk_logo.png" alt="" style="float: left;" width="30" height="30"></a>
+                      <a href="https://www.facebook.com/rpd.official" target="_blank" title="Сторінка Facebook"> <img src="/images/com/facebook_logo.png" alt="" style="float: left;" width="30" height="30"></a>-->
+                    </p>
+                  </div>
+                <p>Сторінка у контакті <a href="https://vk.com/rff_forever" target="_blank" title="Сторінка ВКонтакте"><img src="http://127.0.0.1:4000/images/vk_logo.png" alt="" style="float: left;" width="30" height="30"></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4     separator_footer vt_block">
+          <div class="vt_moduletable clearfix moduletable">
+            <h3 class="vt_moduletable_title"><span>Корисні посилання</span></h3>
+              <div class="vt_moduletable_content">
+<div class="custom">
+<p><a href="http://rex.knu.ua" target="_blank" title="Перейти на сайт факультету РЕКС"><span>Факультет радіофізики, електроніки та комп’ютерних систем</span></a></p>
+<p><a href="http://iht.univ.kiev.ua" target="_blank" title="Перейти на сайт ІВТ"><span>Інститут високих технологій</span></a></p>
+<p><a href="http://phys.univ.kiev.ua" target="_blank" title="Перейти на сайт фізичного факультету"><span>Фізичний факультет</span></a></p>
+<p><a href="http://cyb.univ.kiev.ua" target="_blank" title="Перейти на сайт факультету кібернетики"><span>Факультет кібернетики</span></a></p>
+<p><a href="http://mechmat.univ.kiev.ua" target="_blank" title="Перейти на сайт механіко-математичного факультету"><span>Механіко-математичний факультет</span></a></p></div>
+            </div>   
     </div>
-
   </div>
-
+  <div class="col-md-4     separator_footer vt_block">    
+    <div class="vt_moduletable clearfix moduletable">
+        <h3 class="vt_moduletable_title"><span>Сайт університету</span></h3>
+            <div class="vt_moduletable_content">
+              <div class="custom">
+                <p><a href="http://knu.ua" target="_blank" title="Перейти на сайт університету"><span>КНУ ім. Тараса Шевченка</span></a></p>
+                </p>
+              </div>
+            </div>   
+    </div>
+  </div>
+  <div class="col-md-12    copyright separator_footer vt_block">
+      <div class="vt_moduletable clearfix moduletable">
+                <div class="vt_moduletable_content">
+                <div class="footer1">Авторські права 2021 © Кафедра комп’ютерної інженерії. Усі права захищені.</div>
+            </div>   
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<footer class="vt_wrapper_copyright vt_section">
+  <div class="vt_container clearfix">
+    <div class="col-md-12"> 
+    </div>
+  </div>
 </footer>
+
+

@@ -1,0 +1,112 @@
+@media (max-width: 991px) {
+  /*//////// VTEM MENU //////////////*/
+	.mega-menu-wrapper ul, .mega-menu-wrapper li, .mega-menu-wrapper .mega-group{width:100% !important;}
+	.mega-menu-wrapper .sub-container, .mega-menu-wrapper ul, .mega-menu-wrapper li{z-index:1 !important; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+	.mega-menu-wrapper .sub-container{max-width:100%; width:100% !important; position:relative !important; left:auto !important; top: auto !important; float:left;}
+	.mega-menu-wrapper .main-mega-menu > li > .sub-container{-moz-box-shadow:none !important; -webkit-box-shadow:none !important; box-shadow:none !important; border:none !important;}
+	.oVertical-wrapper.mega-menu-wrapper > .main-mega-menu > li > .sub-container{-moz-border-radius:0 !important; -webkit-border-radius:0 !important; border-radius:0 !important;}
+	.row-fluid [class*="span"] + [class*="span"]{}
+	.menu-stick{display: block; background-position:center 0;position:absolute; right:0px; top:10px;}
+	.mega-menu-stick{display:none;}
+	.oMenuStickOpen{margin-left:260px; overflow:hidden;}
+	.oMenuStickClose{margin-left:0;}
+	.oMenuStickClose .main-mega-menu{height:0; display:none;}
+	.oMenuStickOpen .main-mega-menu{position:fixed; left:0; top:0; width:260px !important; height:100%; overflow:auto; box-shadow:3px 0 8px rgba(180, 180, 180, 0.5); border-right:1px solid #ccc; z-index:99999;}
+	.oMenuStickOpen .main-mega-menu .sub-container{margin:0 !important;}
+	.oMenuStickOpen .main-mega-menu .sub-container, .main-mega-menu li > a,
+	.mega-menu-wrapper .main-mega-menu li > a:hover{display:block !important; background:none !important; color:#666 !important; opacity:1 !important; font-weight:normal !important; top:0px !important; background:none !important;}
+	.mega-menu-icon{ display:none !important;}
+	.mega-menu-wrapper ul.main-mega-menu li a:hover{text-decoration:underline; background:none !important;}
+	.mega-menu-wrapper ul.main-mega-menu li.current > a{ color:#666; font-weight:normal !important; background:none !important;}
+	.mega-menu-wrapper ul{background:#fff url(../vtemtools/menus/css/images/line.png) repeat-y 10px center !important;}
+	.mega-menu-wrapper ul.main-mega-menu li{background:transparent url(../vtemtools/menus/css/images/node-mid.png) no-repeat 10px -5px !important; padding:0 10px 0 15px !important; opacity:0.9;}
+	.mega-menu-wrapper ul.main-mega-menu li a{padding:5px !important; margin:5px !important; font-size:95%; background:none !important;}
+	.mega-menu-wrapper ul.main-mega-menu > li > a{font-size:100%; font-weight:bold; background:none !important;}
+	.mega-menu-wrapper ul.main-mega-menu > li:first-child{background:#fff url(../vtemtools/menus/css/images/node-first.png) no-repeat 10px 20px !important;}
+	.mega-menu-wrapper ul.main-mega-menu li:last-child{background:#fff url(../vtemtools/menus/css/images/node-last.png) no-repeat 10px -30px !important}
+	.oMenuOverwrite{position:fixed; top:0; bottom:0; left:260px; right:0; background-color:rgba(50, 50, 50, 0.3); cursor:pointer; z-index:99999;}
+	.main-mega-menu .sub-container li.mega-hover > a,
+	.main-mega-menu .sub-container li.current.active > a,
+	.active.parent .sub-container li.active > a,
+	.menuvtem_nav .current.active > a,
+	.main-mega-menu li.mega-hover > a, .main-mega-menu li.mega-hover > a:hover,
+	.menuvtem_nav > .active > a, .menuvtem_nav > .active > a:hover, .menuvtem_nav > .active > a:focus{background:none !important; color: #666; font-weight:bold !important;}
+	.main-mega-menu li li .sub-container:before,
+	.main-mega-menu li .sub-container:before {
+		border-bottom: 0 none !important;
+		border-left: 0 none !important;
+		border-right: 0 none !important;
+		content: "";
+		display: inline-block !important;
+		left: auto !important;
+		position: inherit !important;
+		top: auto !important;
+	}
+	.main-mega-menu li li .sub-container:after,
+	.main-mega-menu li .sub-container:after {
+		border-bottom: 0 none !important;
+		border-left: 0 none !important;
+		border-right: 0 none !important;
+		content: "";
+		display: inline-block !important;
+		left: auto !important;
+		position: inherit !important;
+		top: auto !important;
+	}
+	.main-mega-menu li li .sub-container {
+		padding: 0 !important;
+		top: auto !important;
+	}
+	.main-mega-menu li .sub-container {
+		border: 0 none;
+		border-radius: 6px;
+		box-shadow: none;
+		display: none;
+		float: left;
+		left: 0;
+		list-style: none outside none;
+		margin: 2px 0 0;
+		min-width: 160px;
+		padding: 0 !important;
+		position: relative;
+		top: 0;
+		z-index: 1000;
+	}
+	.vtem_scroller .slides li img{ display:inline-block !important;}
+	.vtem_skitter .vtem_skitter_title{ font-size:30px; line-height:35px;}
+	.vtem_skitter .label_skitter{ width:80% !important; left:10% !important; display:none !important;}
+	.vtem_skitter .prev_button, .vtem_skitter .next_button{ top:44% !important;}
+	.Latest_news .vtem_scroller .slides > li > div > div{ clear:both; margin-bottom:40px; float:left;}
+	.Latest_news .vtem_scroller .vtem_engine_image{ width:33%;}
+	.module_support.vt_block{ padding-right:5px;}
+	.module_search.vt_block{ padding-left:5px;}
+	.module_support.vt_block, .module_search.vt_block,
+	.vt_wrapper_top .search form input, .vt_wrapper_top .search form button{ font-size:12px;}
+	.vt_wrapper_top .search form input{ width:60%;}
+	.Our_services .waper_Our{ border:0px;}
+	.vtem-accordion-wrapper .vtem-accordion{ width:100% !important;}
+	.Who_arewe.vt_block .vtem-after-text{ margin-bottom:20px;}
+	.vt_moduletable.Our_projects .vtem_scroller .slides li img{ width:100%;}
+	.Our_projects.vt_block .vtem_scroller .slides .row .block{ margin-bottom:30px;}
+	.subCategoryContainer{ width:50% !important;}
+	.subCategoryContainer h2{ font-size:24px;}
+}
+
+@media (min-width: 992px) {
+  .nav-collapse.collapse {height: auto !important;overflow: visible !important;}
+  .mega-menu-stick{display: block !important;}
+  .vt_wrapper_top .search form{ width:100%;}
+  .main-mega-menu > li > a{font-size:13px; padding:7px 13px !important; }
+  .ie9 .main-mega-menu > li > a{ font-size:13px;} 
+  .Our_projects .vtem_scroller h4.vtem_engine_title{ font-size:15px; font-weight:bold;}
+  .subCategoryContainer h2{ font-size:24px;}
+
+  
+  
+}
+@media (min-width: 1200px) {
+.main-mega-menu > li > a{font-size:14px;padding:7px 20px !important;}
+#vt_footer .form-inline .form-control{ width:58%; margin-bottom:0px;}
+.Our_projects .vtem_scroller h4.vtem_engine_title{ font-size:18px; font-weight:normal;}
+}
+

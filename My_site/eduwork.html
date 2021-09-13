@@ -1,0 +1,9 @@
+---
+layout: default
+title: Навчальна робота
+---
+
+{% for post in site.categories.education %}
+	<!--<h2>{{ post.title }}</h2>-->
+	{{ post.content }}
+{% endfor %}

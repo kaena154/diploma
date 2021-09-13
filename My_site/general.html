@@ -1,0 +1,9 @@
+---
+layout: default
+title: Головна сторінка
+---
+
+{% for post in site.categories.ki %}
+	<h2>{{ post.title }}</h2>
+	{{ post.content }}
+{% endfor %}

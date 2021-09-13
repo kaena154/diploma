@@ -1,9 +1,36 @@
-<header class="site-header" role="banner">
+<div class="container vt_group">
+	<div id="vt_header" class="vt_header row-fluid clearfix">
+		<div class="col-md-3    col-sm-6 col-xs-8  vt_block">
+			<a id="vt_logo" href="">
+				<img src="http://127.0.0.1:4000/images/vt_logo_style4.png" alt="Кафедра комп’ютерної інженерії">
+			</a>
+		</div>
+		<div class="col-md-9    col-sm-6 col-xs-4 separator_header vt_block">
+			<div id="vt_main_menu" class="vt_menufix clearfix">
+				<div class="oHorizontal-wrapper navbar-inner default menu mega-menu-wrapper clearfix">
+					<span class="menu-stick">Menu</span>
+					<ul class="nav menuvtem_nav mega-menu oHorizontal main-mega-menu mega-menu-stick" id="vtemdefaultmenu" style="width: 100%;">
+						<li class="item-126 menu-item-first" style="display: list-item;"><a href="{{ "/general.html" | prepend: site.baseurl }}"><i class="fa fa-angle-right"> &nbsp; </i>Головна</a></li>
+						<li class="item-127" style="display: list-item;"><a href="{{ "/news.html" | prepend: site.baseurl }}"><i class="fa fa-angle-right"> &nbsp; </i>Новини</a></li>
+						<li class="item-128" style="display: list-item;"><a href="{{ "/eduwork.html" | prepend: site.baseurl }}"><i class="fa fa-angle-right"> &nbsp; </i>Навчальна робота</a></li>
+						<li class="item-178" style="display: list-item;"><a href="{{ "/research.html" | prepend: site.baseurl }}"><i class="fa fa-angle-right"> &nbsp; </i>Дослідження</a></li>
+						<li class="item-180" style="display: list-item;"><a href="{{ "/enrolle.html" | prepend: site.baseurl }}"><i class="fa fa-angle-right"> &nbsp; </i>Абітурієнту</a></li>
+						<li class="item-179 menu-item-last" style="display: list-item;"><a href="{{ "/staff.html" | prepend: site.baseurl }}"><i class="fa fa-angle-right"> &nbsp; </i>Персоналії</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- <header class="site-header" role="banner">
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }} 123</a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -27,4 +54,4 @@
       </nav>
     {%- endif -%}
   </div>
-</header>
+</header> -->
